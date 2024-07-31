@@ -1,0 +1,90 @@
+﻿<Window x:Class="QF.Notices.Views.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QF.Notices.Views"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        mc:Ignorable="d"
+        Title="Login" Height="348" Width="528">
+    <materialDesign:DialogHost>
+        <StackPanel >
+            <materialDesign:DrawerHost>
+                <DockPanel>
+                    <StackPanel>
+                        <materialDesign:ColorZone x:Name="ColorZone" Padding="3" materialDesign:ElevationAssist.Elevation="Dp24" DockPanel.Dock="Top" Mode="PrimaryDark">
+                            <DockPanel LastChildFill="False">
+                                <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
+                                    <Button x:Name="btnExit" Content="✕" Style="{StaticResource MaterialDesignFlatButton}"/>
+                                </StackPanel>
+                                <StackPanel DockPanel.Dock="Left" Orientation="Horizontal">
+                                    <Image Width="25" Height="25" Source="/Images/QF.jpg" Margin="3">
+                                        <Image.Clip>
+                                            <EllipseGeometry Center="12.5,12.5" RadiusX="12.5" RadiusY="12.5"/>
+                                        </Image.Clip>
+                                    </Image>
+                                </StackPanel>
+                            </DockPanel>
+                        </materialDesign:ColorZone>
+                    </StackPanel>
+
+                </DockPanel>
+            </materialDesign:DrawerHost>
+            <DockPanel LastChildFill="True" HorizontalAlignment="Center" Background="{DynamicResource MaterialDesignDarkSeparatorBackground}">
+                <DockPanel DockPanel.Dock="Bottom">
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="220"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel>
+                            <Image Width="auto" Height="auto" Source="/Images/QF.jpg">
+                                
+                            </Image>
+
+                        </StackPanel>
+                        <StackPanel Grid.Column="1">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="80"/>
+                                    <RowDefinition/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                                <DockPanel Margin="16" HorizontalAlignment="Left" VerticalAlignment="Center">
+                                    <TextBlock x:Name="Login_Title" Text="登录" FontSize="22"  />
+                                </DockPanel>
+                                <StackPanel Grid.Row="1" Margin="5,22">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto"/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <DockPanel LastChildFill="True">
+                                            <StackPanel Grid.Column="0" Width="auto">
+                                                <TextBlock  Padding="10,5" Grid.Row="0"  Text="账号"/>
+                                                <TextBlock Padding="10,5" Grid.Row="1"  Text="密码"/>
+                                            </StackPanel>
+                                            <StackPanel Grid.Column="1" Width="160">
+                                                <TextBox Padding="10,5" Grid.Row="0" x:Name="User" Style="{DynamicResource MaterialDesignTextBox}"/>
+                                                <PasswordBox Padding="10,5" Grid.Row="1" x:Name="Password" Style="{DynamicResource MaterialDesignPasswordBox}"/>
+                                            </StackPanel>
+                                        </DockPanel>
+                                    </Grid>
+                                </StackPanel>
+                                <Button Grid.Row="2" x:Name="btnLogin" Style="{DynamicResource MaterialDesignFlatMidBgButton}" Content="登录" FontSize="16" Margin="5,20"/>
+                            </Grid>
+                        </StackPanel>
+                    </Grid>
+                </DockPanel>
+            </DockPanel>
+            
+        </StackPanel>
+    </materialDesign:DialogHost>
+</Window>
