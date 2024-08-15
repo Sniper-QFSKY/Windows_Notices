@@ -28,6 +28,26 @@
                                 <EllipseGeometry Center="12.5,12.5" RadiusX="12.5" RadiusY="12.5"/>
                             </Image.Clip>
                         </Image>
+                        <ListBox 
+                            x:Name="MenuList"
+                            AutomationProperties.Name="MenuListBox"
+                            PreviewMouseLeftButtonUp="MenuList_PreviewMouseLeftButtonUp"
+                            SelectedIndex="{Binding SelectedIndex}"
+                            SelectedItem="{Binding SelectedItem}"
+                            Style="{DynamicResource MaterialDesignNavigationPrimaryListBox}"
+                            Margin="0,16,0,16">
+                            <ListBox.Resources>
+                                <Style TargetType="ScrollBar" BasedOn="{StaticResource MaterialDesignScrollBarMinimal}"/>
+                            </ListBox.Resources>
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Background="Transparent" Orientation="Horizontal">
+                                        <materialDesign:PackIcon Margin="15,0" Kind="{Binding Icon}" />
+                                        <TextBlock Margin="10,0" Text="{Binding Title}" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
                     </StackPanel>
                 </DockPanel>
             </materialDesign:DrawerHost.LeftDrawerContent>

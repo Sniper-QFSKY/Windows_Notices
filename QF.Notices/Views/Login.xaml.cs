@@ -31,6 +31,12 @@ namespace QF.Notices.Views
                 if (e.LeftButton == MouseButtonState.Pressed)
                     DragMove();
             };
+            btnLogin.Click += (s, e) =>
+            {
+                this.Hide();
+                MainWindow main = new MainWindow();
+                main.Show();
+            };
         }
     }
 }

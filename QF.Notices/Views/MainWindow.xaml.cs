@@ -44,6 +44,10 @@ namespace QF.Notices.Views
                     WindowState = WindowState.Normal;
             };
         }
-        
+
+        private void MenuList_PreviewMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }

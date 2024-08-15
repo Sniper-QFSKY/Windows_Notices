@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QF.Notices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59625856506aec6b6e776d5137114572637a6382")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e2380c8648f312daf927e834c813a2c51d7123f")]
 [assembly: System.Reflection.AssemblyProductAttribute("QF.Notices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QF.Notices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

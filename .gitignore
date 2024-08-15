@@ -4,3 +4,7 @@
 
 *.vsidx
 /.vs/Windows_Notices/v17
+/QF.Api/bin/Debug/net8.0
+/QF.Api/obj
+/QF.Notices/bin
+/QF.Notices/obj
