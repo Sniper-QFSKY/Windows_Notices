@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QF.Notices.Views"
         xmlns:prism="http://prismlibrary.com/"
-        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:ui="http://materialdesigninxaml.net/winfx/xaml/themes"
         WindowStartupLocation="CenterScreen"
         AllowsTransparency="True"
         Background="{DynamicResource MaterialDesignPaper}"
@@ -18,9 +18,9 @@
         WindowStyle="None"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <materialDesign:DialogHost DialogTheme="Inherit" x:Name="DialogHost" Identifier="Root">
-        <materialDesign:DrawerHost x:Name="drawHost" IsLeftDrawerOpen="{Binding ElementName=MenuToggleButton,Path=IsChecked}">
-            <materialDesign:DrawerHost.LeftDrawerContent>
+    <ui:DialogHost DialogTheme="Inherit" x:Name="DialogHost" Identifier="Root">
+        <ui:DrawerHost x:Name="drawHost" IsLeftDrawerOpen="{Binding ElementName=MenuToggleButton,Path=IsChecked}">
+            <ui:DrawerHost.LeftDrawerContent>
                 <DockPanel MinWidth="220">
                     <StackPanel>
                         <Image Width="25" Height="25" Source="/Images/QF.jpg">
@@ -42,7 +42,7 @@
                             <ListBox.ItemTemplate>
                                 <DataTemplate>
                                     <StackPanel Background="Transparent" Orientation="Horizontal">
-                                        <materialDesign:PackIcon Margin="15,0" Kind="{Binding Icon}" />
+                                        <ui:PackIcon Margin="15,0" Kind="{Binding Icon}" />
                                         <TextBlock Margin="10,0" Text="{Binding Title}" />
                                     </StackPanel>
                                 </DataTemplate>
@@ -50,9 +50,9 @@
                         </ListBox>
                     </StackPanel>
                 </DockPanel>
-            </materialDesign:DrawerHost.LeftDrawerContent>
+            </ui:DrawerHost.LeftDrawerContent>
             <DockPanel >
-                <materialDesign:ColorZone x:Name="ColorZone" Padding="16" materialDesign:ElevationAssist.Elevation="Dp4" DockPanel.Dock="Top" Mode="PrimaryDark">
+                <ui:ColorZone x:Name="ColorZone" Padding="16" ui:ElevationAssist.Elevation="Dp4" DockPanel.Dock="Top" Mode="PrimaryDark">
                     <DockPanel LastChildFill="True">
                         <StackPanel Orientation="Horizontal" DockPanel.Dock="Right">
                             <Image Width="25" Height="25" Source="/Images/QF.jpg">
@@ -66,13 +66,13 @@
                         </StackPanel>
                         <StackPanel Orientation="Horizontal" DockPanel.Dock="Left">
                             <ToggleButton x:Name="MenuToggleButton" AutomationProperties.Name="Menu" IsChecked="False" Style="{StaticResource MaterialDesignHamburgerToggleButton}"/>
-                            <Button materialDesign:RippleAssist.Feedback="{Binding RelativeSource={RelativeSource Self},Path=Foreground,Converter={StaticResource BrushRoundConverter}}" Content="{materialDesign:PackIcon Kind=ArrowLeft,Size=24}" Command="{Binding GoBackCommand}" ToolTip="Previous Item" Style="{DynamicResource MaterialDesignToolButton}"/>
-                            <Button materialDesign:RippleAssist.Feedback="{Binding RelativeSource={RelativeSource Self},Path=Foreground,Converter={StaticResource BrushRoundConverter}}" Content="{materialDesign:PackIcon Kind=ArrowRight,Size=24}" Command="{Binding GoBackCommand}" ToolTip="Next Item" Style="{DynamicResource MaterialDesignToolButton}"/>
-                            <TextBlock Margin="16,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22" x:Name="Title" Text="记事本"/>
+                            <Button ui:RippleAssist.Feedback="{Binding RelativeSource={RelativeSource Self},Path=Foreground,Converter={StaticResource BrushRoundConverter}}" Content="{ui:PackIcon Kind=ArrowLeft,Size=24}" Command="{Binding GoBackCommand}" ToolTip="Previous Item" Style="{DynamicResource MaterialDesignToolButton}"/>
+                            <Button ui:RippleAssist.Feedback="{Binding RelativeSource={RelativeSource Self},Path=Foreground,Converter={StaticResource BrushRoundConverter}}" Content="{ui:PackIcon Kind=ArrowRight,Size=24}" Command="{Binding GoBackCommand}" ToolTip="Next Item" Style="{DynamicResource MaterialDesignToolButton}"/>
+                            <TextBlock Margin="16,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22"  Text="记事本"/>
                         </StackPanel>
                     </DockPanel>
-                </materialDesign:ColorZone>
+                </ui:ColorZone>
             </DockPanel>
-        </materialDesign:DrawerHost>
-    </materialDesign:DialogHost>
+        </ui:DrawerHost>
+    </ui:DialogHost>
 </Window>

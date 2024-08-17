@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\MYtec\\Windows_Notices\\QF.Notices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|d:\\mytec\\windows_notices\\qf.notices\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|d:\\mytec\\windows_notices\\qf.notices\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|d:\\mytec\\windows_notices\\qf.notices\\views\\login.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|solutionrelative:views\\login.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|d:\\mytec\\windows_notices\\qf.notices\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|solutionrelative:views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|d:\\mytec\\windows_notices\\qf.notices\\views\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|solutionrelative:views\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|d:\\mytec\\windows_notices\\qf.notices\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|d:\\mytec\\windows_notices\\qf.notices\\views\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|solutionrelative:views\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|d:\\mytec\\windows_notices\\qf.notices\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|solutionrelative:views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|d:\\mytec\\windows_notices\\qf.notices\\views\\login.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{117DEA62-D833-418E-B557-BB32F2DC4B44}|QF.Notices.csproj|solutionrelative:views\\login.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,77 +58,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "D:\\MYtec\\Windows_Notices\\QF.Notices\\Views\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Login.xaml.cs",
-              "ToolTip": "D:\\MYtec\\Windows_Notices\\QF.Notices\\Views\\Login.xaml.cs",
-              "RelativeToolTip": "Views\\Login.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T15:26:32.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.xaml",
-              "DocumentMoniker": "D:\\MYtec\\Windows_Notices\\QF.Notices\\Views\\Login.xaml",
-              "RelativeDocumentMoniker": "Views\\Login.xaml",
-              "ToolTip": "D:\\MYtec\\Windows_Notices\\QF.Notices\\Views\\Login.xaml",
-              "RelativeToolTip": "Views\\Login.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-14T15:26:29.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\MYtec\\Windows_Notices\\QF.Notices\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
               "ToolTip": "D:\\MYtec\\Windows_Notices\\QF.Notices\\Views\\MainWindow.xaml.cs",
               "RelativeToolTip": "Views\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAQwCIAAAANAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T14:35:34.051Z",
+              "WhenOpened": "2024-08-17T17:34:38.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "D:\\MYtec\\Windows_Notices\\QF.Notices\\Views\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Login.xaml.cs",
+              "ToolTip": "D:\\MYtec\\Windows_Notices\\QF.Notices\\Views\\Login.xaml.cs",
+              "RelativeToolTip": "Views\\Login.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T17:32:47.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\MYtec\\Windows_Notices\\QF.Notices\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
               "ToolTip": "D:\\MYtec\\Windows_Notices\\QF.Notices\\Views\\MainWindow.xaml",
               "RelativeToolTip": "Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-31T14:02:03.809Z",
+              "WhenOpened": "2024-08-17T17:32:11.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\MYtec\\Windows_Notices\\QF.Notices\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\MYtec\\Windows_Notices\\QF.Notices\\App.xaml",
-              "RelativeToolTip": "App.xaml",
+              "DocumentIndex": 2,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "D:\\MYtec\\Windows_Notices\\QF.Notices\\Views\\Login.xaml",
+              "RelativeDocumentMoniker": "Views\\Login.xaml",
+              "ToolTip": "D:\\MYtec\\Windows_Notices\\QF.Notices\\Views\\Login.xaml",
+              "RelativeToolTip": "Views\\Login.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-31T10:15:03.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\MYtec\\Windows_Notices\\QF.Notices\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "D:\\MYtec\\Windows_Notices\\QF.Notices\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T10:11:50.169Z",
+              "WhenOpened": "2024-08-17T17:24:25.886Z",
               "EditorCaption": ""
             }
           ]

@@ -5,17 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QF.Notices.Views"
         xmlns:prism="http://prismlibrary.com/"
-        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:ui="http://materialdesigninxaml.net/winfx/xaml/themes"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         mc:Ignorable="d"
         Title="Login" Height="348" Width="528">
-    <materialDesign:DialogHost>
+    <ui:DialogHost>
         <StackPanel >
-            <materialDesign:DrawerHost>
+            <ui:DrawerHost>
                 <DockPanel>
                     <StackPanel>
-                        <materialDesign:ColorZone x:Name="ColorZone" Padding="3" materialDesign:ElevationAssist.Elevation="Dp24" DockPanel.Dock="Top" Mode="PrimaryDark">
+                        <ui:ColorZone x:Name="ColorZone" Padding="3" ui:ElevationAssist.Elevation="Dp24" DockPanel.Dock="Top" Mode="PrimaryDark">
                             <DockPanel LastChildFill="False">
                                 <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
                                     <Button x:Name="btnExit" Content="✕" Style="{StaticResource MaterialDesignFlatButton}"/>
@@ -28,11 +28,11 @@
                                     </Image>
                                 </StackPanel>
                             </DockPanel>
-                        </materialDesign:ColorZone>
+                        </ui:ColorZone>
                     </StackPanel>
 
                 </DockPanel>
-            </materialDesign:DrawerHost>
+            </ui:DrawerHost>
             <DockPanel LastChildFill="True" HorizontalAlignment="Center" Background="{DynamicResource MaterialDesignDarkSeparatorBackground}">
                 <DockPanel DockPanel.Dock="Bottom">
                     <Grid Grid.Row="1">
@@ -72,8 +72,8 @@
                                                 <TextBlock Padding="10,5" Grid.Row="1"  Text="密码"/>
                                             </StackPanel>
                                             <StackPanel Grid.Column="1" Width="160">
-                                                <TextBox Padding="10,5" Grid.Row="0" x:Name="User" Style="{DynamicResource MaterialDesignTextBox}"/>
-                                                <PasswordBox Padding="10,5" Grid.Row="1" x:Name="Password" Style="{DynamicResource MaterialDesignPasswordBox}"/>
+                                                <TextBox ui:HintAssist.Hint="请输入账号" Padding="10,5" Grid.Row="0" x:Name="User" Style="{DynamicResource MaterialDesignTextBox}"/>
+                                                <PasswordBox ui:HintAssist.Hint="请输入密码" Padding="10,5" Grid.Row="1" x:Name="Password" Style="{DynamicResource MaterialDesignPasswordBox}"/>
                                             </StackPanel>
                                         </DockPanel>
                                     </Grid>
@@ -86,5 +86,5 @@
             </DockPanel>
             
         </StackPanel>
-    </materialDesign:DialogHost>
+    </ui:DialogHost>
 </Window>
